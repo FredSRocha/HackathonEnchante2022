@@ -35,21 +35,41 @@ Burkina Faso é um país africano limitado a oeste e a norte pelo Mali, que poss
 
 [![Hackathon Enchanté{e} - Shawee](https://hackathon.jusblog.com/enchante/assets/img/screenshot/live.png)](https://hackathon.jusblog.com/enchante/app/live/)
 
+install XAMPP
+
+install composer
+
+composer require cboden/ratchet
+
+add in composer.json
+
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "core/classes"
+        }
+    },
+
+composer update
+
+php .\bin\server.php
+
+run database.sql
+
 ### UMA PLATAFORMA DE CONEXÕES E COMPARTILHAMENTOS
 
-[![Hackathon Enchanté{e} - Shawee](https://hackathon.jusblog.com/enchante/assets/img/screenshot/login.png)](https://hackathon.jusblog.com/enchante/app/live/)
+[![Hackathon Enchanté{e} - Shawee](https://hackathon.jusblog.com/enchante/assets/img/screenshot/login.png)](https://hackathon.jusblog.com/enchante/app/)
 
 ### Jogos
 
-[![Hackathon Enchanté{e} - Shawee](https://hackathon.jusblog.com/enchante/assets/img/screenshot/game.png)](https://hackathon.jusblog.com/enchante/app/live/)
+[![Hackathon Enchanté{e} - Shawee](https://hackathon.jusblog.com/enchante/assets/img/screenshot/game.png)](https://hackathon.jusblog.com/enchante/app/)
 
 ### Músicas
 
-[![Hackathon Enchanté{e} - Shawee](https://hackathon.jusblog.com/enchante/assets/img/screenshot/music.png)](https://hackathon.jusblog.com/enchante/app/live/)
+[![Hackathon Enchanté{e} - Shawee](https://hackathon.jusblog.com/enchante/assets/img/screenshot/music.png)](https://hackathon.jusblog.com/enchante/app/)
 
 ### Ensino
 
-[![Hackathon Enchanté{e} - Shawee](https://hackathon.jusblog.com/enchante/assets/img/screenshot/text-to-speech.png)](https://hackathon.jusblog.com/enchante/app/live/)
+[![Hackathon Enchanté{e} - Shawee](https://hackathon.jusblog.com/enchante/assets/img/screenshot/text-to-speech.png)](https://hackathon.jusblog.com/enchante/app/)
 
 ### :white_check_mark: Liste de tâches
 
