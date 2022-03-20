@@ -35,6 +35,8 @@ Burkina Faso é um país africano limitado a oeste e a norte pelo Mali, que poss
 
 [![Hackathon Enchanté{e} - Shawee](https://hackathon.jusblog.com/enchante/assets/img/screenshot/live.png)](https://hackathon.jusblog.com/enchante/app/live/)
 
+### Instruções /live
+
 install XAMPP
 
 install composer
@@ -53,7 +55,7 @@ composer update
 
 php .\bin\server.php
 
-run database.sql
+run database.sql on phpmyadmin
 
 ### UMA PLATAFORMA DE CONEXÕES E COMPARTILHAMENTOS
 
@@ -70,6 +72,12 @@ run database.sql
 ### Ensino
 
 [![Hackathon Enchanté{e} - Shawee](https://hackathon.jusblog.com/enchante/assets/img/screenshot/text-to-speech.png)](https://hackathon.jusblog.com/enchante/app/)
+
+### Instruções /social
+
+install XAMPP
+
+run socialapp.sql on phpmyadmin
 
 ### :white_check_mark: Liste de tâches
 
